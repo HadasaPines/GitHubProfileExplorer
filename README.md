@@ -32,16 +32,9 @@ A client-side Next.js app for searching any GitHub username and exploring their 
 pnpm install
 ```
 
-### 2. Configure environment (optional)
 
-Create a `.env.local` file in the root. Without a token the app works fine but is limited to 60 GitHub API requests per hour.
 
-```env
-NEXT_PUBLIC_GITHUB_API_URL=https://api.github.com
-NEXT_PUBLIC_GITHUB_TOKEN=your_personal_access_token
-```
-
-### 3. Run the dev server
+### 2. Run the dev server
 
 ```bash
 pnpm dev
